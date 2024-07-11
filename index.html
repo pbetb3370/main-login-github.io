@@ -62,12 +62,8 @@ if($getUser->admin_log_check(isset($_SESSION["user_post"]))){
              } ?> 
                 <input type="text" name="loginu" class="form-control" placeholder="Username or Email " value="<?php if(isset($loginuerr))
                 {echo $loginuerr; }?>"required="" />
-        
             
                 <input type="password" name="password" class="form-control" placeholder="Password" required="" />
-        
-        
-              
                 <button class="btn btn-primary" name="submit">Log in</button>
 
                 <a href="forgot-password">Lost your password?</a>
@@ -77,14 +73,9 @@ if($getUser->admin_log_check(isset($_SESSION["user_post"]))){
 
              
             </form>
-          </section>
+          </section>      
+    
         </div>
-
-        
-      </div>
-    </div>
-  </body>
-</html>
 
 </body>
 </html>
