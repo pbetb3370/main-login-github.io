@@ -14,41 +14,10 @@
     <div class="myform">
       <form>
         <h2>ADMIN LOGIN</h2>
-      <tr>
- <center> 
-		<td><form name="login">
-           Username: <input type="text" 
-name="userid"/><br><br>
-           Password :  <input type="password" 
-name="pswrd"/><br><br>
-          <input type="button" onclick="check(this.form)" 
-value="Login"/>
-            <input type="reset" value="Cancel"/>
-        </form>
-            
-            <script language="javascript">
-            function check(form) { /*function to check userid & 
-password*/
-                /*the following code checkes whether the entered userid 
-and password are matching*/
-                if(form.userid.value == "TC130360" && 
-form.pswrd.value == "123@222") {
-                    
-window.open("file:///C:/Users/ADMIN/Desktop/main_dashboard.html", 
-"_self")/*opens the target page while Id & password matches*/
-                }
-               if(form.userid.value == "kapk003@gmail.com" && 
-form.pswrd.value == "kewal@222") {
-                    indow.open("#", "_self")/*opens the target page 
-while Id & password matches*/
-                }
-                else {
-                    alert("Enterr Password or Username")/*displays error
- message*/
-                }
-            }
-             </center> 
-        </script>
+        <input type="text" placeholder="Admin Name">
+        <input type="password" placeholder="Password">
+        <form action="main_dashboard.html">
+          <input type="submit" value=" LOGIN " name="">
        </a>     
       </form>
     </div>
